@@ -17,8 +17,8 @@ db <- tryCatch({
     host = "aws-0-us-east-1.pooler.supabase.com",
     dbname = "postgres",
     port = 6543,
-    user = "postgres.slvdrlzylihfhrfgiqqo",
-    password = "FEWSLab1Charleston*"
+    user = "username",
+    password = "password*"
   )
 }, error = function(e) {
   message("Database connection failed: ", e$message)
